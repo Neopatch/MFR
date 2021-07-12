@@ -28,4 +28,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[FK_character_user]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="f7b8a613-e566-45e5-8234-7161c38b91c4" ChangeDateTime="07/12/2021 13:24:47">
+    <Property Name="ElementName" Value="[dbo].[character_type].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[character_type]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_character_type" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7c6e266d-279e-4885-8cca-e432e260de23" ChangeDateTime="07/12/2021 13:26:21">
+    <Property Name="ElementName" Value="[dbo].[character_type].[IX_character_type_Column]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[character_type]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IX_character_type_character_type_name]" />
+  </Operation>
 </Operations>
