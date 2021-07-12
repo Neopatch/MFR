@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB_MFR", "DB_MFR\DB_MFR.sqlproj", "{3C92F0CE-2FB6-4D9B-B55E-8C593E8FE8FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C92F0CE-2FB6-4D9B-B55E-8C593E8FE8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C92F0CE-2FB6-4D9B-B55E-8C593E8FE8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C92F0CE-2FB6-4D9B-B55E-8C593E8FE8FB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3C92F0CE-2FB6-4D9B-B55E-8C593E8FE8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C92F0CE-2FB6-4D9B-B55E-8C593E8FE8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C92F0CE-2FB6-4D9B-B55E-8C593E8FE8FB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {781703DF-9A5E-40B6-90F3-7519E0E9A781}
+	EndGlobalSection
+EndGlobal

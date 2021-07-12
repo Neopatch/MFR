@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="a5e2e031-d92c-46ea-84a2-12c7acb76b9b" ChangeDateTime="07/12/2021 12:27:34">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_user" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="32a60fba-a42e-42a5-83d5-d4d1048258a2" ChangeDateTime="07/12/2021 12:30:19">
+    <Property Name="ElementName" Value="[dbo].[Table1].[IX_Table1_Column]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IX_user_user_name]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="63eb1c0c-f901-49fb-bfc8-fe948609d792" ChangeDateTime="07/12/2021 12:31:57">
+    <Property Name="ElementName" Value="[dbo].[character].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[character]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_character" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9322fee5-633c-4659-b4e5-575e12490c09" ChangeDateTime="07/12/2021 12:41:20">
+    <Property Name="ElementName" Value="[dbo].[FK_character_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[character]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_character_user]" />
+  </Operation>
+</Operations>
